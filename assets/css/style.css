@@ -1424,26 +1424,21 @@ p {
 
 .about-image .app {
     position: relative;
-    -webkit-transform: rotate(-25deg) translateY(-15%);
-    -moz-transform: rotate(-25deg) translateY(-15%);
-    -ms-transform: rotate(-25deg) translateY(-15%);
-    -o-transform: rotate(-25deg) translateY(-15%);
-    transform: rotate(-25deg) translateY(-15%);
-    max-width: 280px;
+    max-width: 450px;
     position: absolute;
-    top: 100px;
-    left: 95px;
+    top: 210px;
+    left: 20px;
     -webkit-box-shadow: -15px 10px 30px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: -15px 10px 30px 0px rgba(0, 0, 0, 0.3);
     box-shadow: -15px 10px 30px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
 @media (max-width: 767px) {
     .about-image .app {
-        max-width: 190px;
-        border-radius: 25px;
-        top: 60px;
+        max-width: 450px;
+        top: 140px;
+        left: 30px;
     }
 }
 
@@ -1474,8 +1469,8 @@ p {
     -webkit-box-shadow: 0px 3px 25px 0px rgba(8, 153, 231, 0.2);
     -moz-box-shadow: 0px 3px 25px 0px rgba(8, 153, 231, 0.2);
     box-shadow: 0px 3px 25px 0px rgba(8, 153, 231, 0.2);
-    border-radius: 50px;
-    max-width: 295px;
+    border-radius: 25px;
+    max-width: 450px;
     margin: 0 auto;
 }
 
@@ -1594,6 +1589,7 @@ p {
 .footer-area {
     position: relative;
     z-index: 5;
+    margin-top: 150px;
 }
 
 .footer-area .footer-shape {
