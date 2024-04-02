@@ -28,7 +28,7 @@ body {
     font-weight: normal;
     font-style: normal;
     color: #747E88;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 * {
@@ -1748,7 +1748,7 @@ p {
 
 .footer-area .footer-shape.shape-8 {
     top: 30px;
-    right: -45px;
+    right: 0px;
 }
 
 .footer-area .logo {
@@ -1913,7 +1913,7 @@ p {
 
 .iframe-container {
     height: 900px;
-    width: 1000px;
+    width: 100%;
     margin-top: 40px;
 }
 
