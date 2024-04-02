@@ -1243,11 +1243,16 @@ p {
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
     padding: 45px 25px 35px;
+    height: 400px;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
     .single-services {
         padding: 40px 20px 30px;
+        height: 300px;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 }
 
@@ -1434,9 +1439,15 @@ p {
     border-radius: 25px;
 }
 
+@media (max-width: 1200px) {
+    .about-image .app {
+        max-width: 350px;
+    }
+}
+
 @media (max-width: 767px) {
     .about-image .app {
-        max-width: 450px;
+        max-width: 400px;
         top: 140px;
         left: 30px;
     }
@@ -1462,6 +1473,7 @@ p {
     .download-area .download-image {
         padding-left: 20px;
         padding-right: 20px;
+        max-width: 400px;
     }
 }
 
@@ -1476,7 +1488,13 @@ p {
 
 @media (max-width: 767px) {
     .download-area .download-image .image {
-        max-width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .download-area .download-image .image {
+        max-width: 350px;
     }
 }
 
@@ -1903,12 +1921,12 @@ p {
 
 @media (min-width: 576px) {
     .gradio-interface {
-        height: 1500px;
+        height: 1550px;
     }
 }
 
 .iframe-container {
-    height: 900px;
+    height: 950px;
     width: 100%;
     margin-top: 40px;
 }
@@ -1916,5 +1934,5 @@ p {
 iframe {
     display: block;
     position: relative;
-    height: 900px;
+    height: 930px;
 }
