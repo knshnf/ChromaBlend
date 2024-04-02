@@ -1911,6 +1911,14 @@ p {
     }
 }
 
-.gradio-interface {
-    height: 950px;
+.iframe-container {
+    height: 900px;
+    width: 1000px;
+    margin-top: 40px;
+}
+
+iframe {
+    display: block;
+    position: relative;
+    height: 900px;
 }
